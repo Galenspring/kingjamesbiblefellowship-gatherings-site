@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/sitemap.xml
+Sitemap: https://gatherings.kingjamesbiblefellowship.com/sitemap.xml
