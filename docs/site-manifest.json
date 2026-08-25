@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site",
+  "lastSourceVerification": "2026-08-23",
+  "counts": {
+    "catalogPages": 1,
+    "detailPages": 109,
+    "mapMarkers": 148,
+    "totalHtmlRoutes": 110
+  },
+  "pages": [
+    {
+      "id": "WEB-001",
+      "slug": "web-001-beale-street-blast",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-001-beale-street-blast/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-002",
+      "slug": "web-002-new-orleans-street-preaching-blitz",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-002-new-orleans-street-preaching-blitz/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-003",
+      "slug": "web-003-nyc-annual-tract-blast-and-street-preaching-blitz",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-003-nyc-annual-tract-blast-and-street-preaching-blitz/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-004",
+      "slug": "web-004-fill-america-gospel-tract-challenge",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-004-fill-america-gospel-tract-challenge/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-005",
+      "slug": "web-005-annual-bible-conference-and-calle-ocho-outreach",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-005-annual-bible-conference-and-calle-ocho-outreach/",
+      "mapPoints": 3
+    },
+    {
+      "id": "WEB-006",
+      "slug": "web-006-king-james-bible-jubilee",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-006-king-james-bible-jubilee/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-007",
+      "slug": "web-007-annual-king-james-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-007-annual-king-james-bible-conference/",
+      "mapPoints": 3
+    },
+    {
+      "id": "WEB-008",
+      "slug": "web-008-pilgrim-baptist-annual-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-008-pilgrim-baptist-annual-bible-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-009",
+      "slug": "web-009-kjbrc-national-conference-and-annual-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-009-kjbrc-national-conference-and-annual-meeting/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-010",
+      "slug": "web-010-dean-burgon-society-annual-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-010-dean-burgon-society-annual-meeting/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-011",
+      "slug": "web-011-word-first-annual-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-011-word-first-annual-bible-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-012",
+      "slug": "web-012-bible-baptist-blowout",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-012-bible-baptist-blowout/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-013",
+      "slug": "web-013-kjv-teens-4-christ-regional-youth-rally-circuit",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-013-kjv-teens-4-christ-regional-youth-rally-circuit/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-014",
+      "slug": "web-014-kjv-teens-4-christ-annual-youth-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-014-kjv-teens-4-christ-annual-youth-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-015",
+      "slug": "web-015-kjv-teens-4-christ-annual-teen-camp",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-015-kjv-teens-4-christ-annual-teen-camp/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-016",
+      "slug": "web-016-bible-baptist-church-annual-tent-revival",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-016-bible-baptist-church-annual-tent-revival/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-017",
+      "slug": "web-017-stoking-the-fire-camp-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-017-stoking-the-fire-camp-meeting/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-018",
+      "slug": "web-018-sweet-springs-anniversary-and-homecoming-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-018-sweet-springs-anniversary-and-homecoming-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-019",
+      "slug": "web-019-bible-baptist-youth-rally-of-deland",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-019-bible-baptist-youth-rally-of-deland/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-020",
+      "slug": "web-020-national-sword-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-020-national-sword-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-021",
+      "slug": "web-021-sword-men-s-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-021-sword-men-s-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-022",
+      "slug": "web-022-national-sword-youth-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-022-national-sword-youth-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-023",
+      "slug": "web-023-revival-fires-national-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-023-revival-fires-national-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-024",
+      "slug": "web-024-north-central-church-planting-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-024-north-central-church-planting-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-025",
+      "slug": "web-025-independent-baptist-pastors-and-church-planters-in-texas-meetings",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-025-independent-baptist-pastors-and-church-planters-in-texas-meetings/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-027",
+      "slug": "web-027-the-voice-in-the-wilderness-king-james-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-027-the-voice-in-the-wilderness-king-james-bible-conference/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-028",
+      "slug": "web-028-grace-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-028-grace-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-029",
+      "slug": "web-029-central-florida-independent-baptist-pastors-fellowship",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-029-central-florida-independent-baptist-pastors-fellowship/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-030",
+      "slug": "web-030-heartland-national-church-planting-and-home-missions-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-030-heartland-national-church-planting-and-home-missions-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-031",
+      "slug": "web-031-heartland-graduation-preaching-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-031-heartland-graduation-preaching-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-033",
+      "slug": "web-033-heartland-10-40-prayer-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-033-heartland-10-40-prayer-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-034",
+      "slug": "web-034-oklahoma-baptist-preachers-fellowship-at-heartland",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-034-oklahoma-baptist-preachers-fellowship-at-heartland/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-035",
+      "slug": "web-035-heartland-and-southwest-baptist-missions-emphasis-days",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-035-heartland-and-southwest-baptist-missions-emphasis-days/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-036",
+      "slug": "web-036-faith-baptist-annual-fundamentalist-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-036-faith-baptist-annual-fundamentalist-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-037",
+      "slug": "web-037-faith-baptist-annual-ladies-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-037-faith-baptist-annual-ladies-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-038",
+      "slug": "web-038-faith-baptist-annual-missions-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-038-faith-baptist-annual-missions-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-041",
+      "slug": "web-041-fort-worth-baptist-temple-baptist-fundamentalist-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-041-fort-worth-baptist-temple-baptist-fundamentalist-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-042",
+      "slug": "web-042-quebeck-quiz-quest",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-042-quebeck-quiz-quest/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-043",
+      "slug": "web-043-camp-utibaca-family-camp",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-043-camp-utibaca-family-camp/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-044",
+      "slug": "web-044-camp-utibaca-youth-camp-program",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-044-camp-utibaca-youth-camp-program/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-045",
+      "slug": "web-045-national-sword-music-seminar",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-045-national-sword-music-seminar/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-046",
+      "slug": "web-046-national-sword-school-of-the-prophets",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-046-national-sword-school-of-the-prophets/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-047",
+      "slug": "web-047-national-sword-ladies-jubilee",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-047-national-sword-ladies-jubilee/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-048",
+      "slug": "web-048-landmark-baptist-college-annual-soul-winning-marathon",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-048-landmark-baptist-college-annual-soul-winning-marathon/",
+      "mapPoints": 0
+    },
+    {
+      "id": "WEB-049",
+      "slug": "web-049-north-valley-national-pastors-and-workers-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-049-north-valley-national-pastors-and-workers-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-050",
+      "slug": "web-050-north-valley-spanish-pastors-and-workers-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-050-north-valley-spanish-pastors-and-workers-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-051",
+      "slug": "web-051-north-valley-national-youth-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-051-north-valley-national-youth-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-052",
+      "slug": "web-052-north-valley-stewardship-and-missions-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-052-north-valley-stewardship-and-missions-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-056",
+      "slug": "web-056-quebeck-baptist-church-family-camp",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-056-quebeck-baptist-church-family-camp/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-057",
+      "slug": "web-057-first-baptist-church-of-hammond-servants-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-057-first-baptist-church-of-hammond-servants-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-058",
+      "slug": "web-058-first-baptist-church-of-hammond-youth-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-058-first-baptist-church-of-hammond-youth-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-059",
+      "slug": "web-059-first-baptist-church-of-hammond-ladies-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-059-first-baptist-church-of-hammond-ladies-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-060",
+      "slug": "web-060-first-baptist-church-of-hammond-singles-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-060-first-baptist-church-of-hammond-singles-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-061",
+      "slug": "web-061-first-baptist-church-of-hammond-marriage-retreat",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-061-first-baptist-church-of-hammond-marriage-retreat/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-062",
+      "slug": "web-062-first-baptist-church-of-hammond-spanish-single-adults-retreat",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-062-first-baptist-church-of-hammond-spanish-single-adults-retreat/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-063",
+      "slug": "web-063-smoky-mountain-couples-retreat",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-063-smoky-mountain-couples-retreat/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-064",
+      "slug": "web-064-faithful-men-s-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-064-faithful-men-s-meeting/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-065",
+      "slug": "web-065-crown-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-065-crown-bible-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-066",
+      "slug": "web-066-crown-world-mission-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-066-crown-world-mission-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-067",
+      "slug": "web-067-spiritual-leadership-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-067-spiritual-leadership-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-068",
+      "slug": "web-068-west-coast-baptist-ascend-youth-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-068-west-coast-baptist-ascend-youth-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-069",
+      "slug": "web-069-the-preacher-s-delight-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-069-the-preacher-s-delight-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-070",
+      "slug": "web-070-red-hot-preaching-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-070-red-hot-preaching-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-071",
+      "slug": "web-071-faithful-word-small-town-and-regional-soul-winning-marathons",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-071-faithful-word-small-town-and-regional-soul-winning-marathons/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-072",
+      "slug": "web-072-bluenose-campmeeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-072-bluenose-campmeeting/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-073",
+      "slug": "web-073-maritime-ladies-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-073-maritime-ladies-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-074",
+      "slug": "web-074-kyabram-fellowship-free-youth-camps",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-074-kyabram-fellowship-free-youth-camps/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-075",
+      "slug": "web-075-anchor-baptist-youth-camp",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-075-anchor-baptist-youth-camp/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-076",
+      "slug": "web-076-new-life-annual-old-fashioned-camp-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-076-new-life-annual-old-fashioned-camp-meeting/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-077",
+      "slug": "web-077-south-florida-youth-fellowship",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-077-south-florida-youth-fellowship/",
+      "mapPoints": 3
+    },
+    {
+      "id": "WEB-078",
+      "slug": "web-078-south-texas-1611-av-king-james-bible-preachers-fellowship",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-078-south-texas-1611-av-king-james-bible-preachers-fellowship/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-079",
+      "slug": "web-079-pontotoc-annual-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-079-pontotoc-annual-bible-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-080",
+      "slug": "web-080-best-missions-regional-conference-circuit",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-080-best-missions-regional-conference-circuit/",
+      "mapPoints": 4
+    },
+    {
+      "id": "WEB-081",
+      "slug": "web-081-annual-servants-retreat",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-081-annual-servants-retreat/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-082",
+      "slug": "web-082-national-baptist-youth-conference-philippines",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-082-national-baptist-youth-conference-philippines/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-083",
+      "slug": "web-083-national-baptist-ladies-conference-philippines",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-083-national-baptist-ladies-conference-philippines/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-084",
+      "slug": "web-084-queanbeyan-annual-missions-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-084-queanbeyan-annual-missions-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-085",
+      "slug": "web-085-iron-sharpeneth-iron-rotating-preaching-fellowship",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-085-iron-sharpeneth-iron-rotating-preaching-fellowship/",
+      "mapPoints": 5
+    },
+    {
+      "id": "WEB-086",
+      "slug": "web-086-gum-springs-baptist-youth-camp",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-086-gum-springs-baptist-youth-camp/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-087",
+      "slug": "web-087-camp-victory-uk",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-087-camp-victory-uk/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-088",
+      "slug": "web-088-the-bible-stands-kjv-conference-and-biblical-heritage-archive-museum-circuit",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-088-the-bible-stands-kjv-conference-and-biblical-heritage-archive-museum-circuit/",
+      "mapPoints": 5
+    },
+    {
+      "id": "WEB-089",
+      "slug": "web-089-bible-believers-baptist-church-annual-king-james-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-089-bible-believers-baptist-church-annual-king-james-bible-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-090",
+      "slug": "web-090-rich-fork-king-james-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-090-rich-fork-king-james-bible-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-091",
+      "slug": "web-091-awake-bible-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-091-awake-bible-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-092",
+      "slug": "web-092-friday-night-melody",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-092-friday-night-melody/",
+      "mapPoints": 4
+    },
+    {
+      "id": "WEB-093",
+      "slug": "web-093-faith-baptist-young-adults-camp",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-093-faith-baptist-young-adults-camp/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-094",
+      "slug": "web-094-faith-baptist-new-year-s-eve-fellowship",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-094-faith-baptist-new-year-s-eve-fellowship/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-095",
+      "slug": "web-095-faith-baptist-church-anniversary",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-095-faith-baptist-church-anniversary/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-096",
+      "slug": "web-096-lighthouse-bible-institute-graduation",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-096-lighthouse-bible-institute-graduation/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-097",
+      "slug": "web-097-new-testament-independent-baptist-homecoming-revival",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-097-new-testament-independent-baptist-homecoming-revival/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-098",
+      "slug": "web-098-cornerstone-saturday-street-outreach",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-098-cornerstone-saturday-street-outreach/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-099",
+      "slug": "web-099-mount-zion-operation-saturation",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-099-mount-zion-operation-saturation/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-100",
+      "slug": "web-100-hopewell-church-all-night-prayer",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-100-hopewell-church-all-night-prayer/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-101",
+      "slug": "web-101-hopewell-saturday-soul-winning-rally",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-101-hopewell-saturday-soul-winning-rally/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-102",
+      "slug": "web-102-camp-cobeac-summer-staff-training",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-102-camp-cobeac-summer-staff-training/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-103",
+      "slug": "web-103-stedfast-multi-state-college-soulwinning-program",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-103-stedfast-multi-state-college-soulwinning-program/",
+      "mapPoints": 4
+    },
+    {
+      "id": "WEB-104",
+      "slug": "web-104-faith-baptist-annual-church-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-104-faith-baptist-annual-church-conference/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-105",
+      "slug": "web-105-faith-baptist-men-s-breakfast",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-105-faith-baptist-men-s-breakfast/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-106",
+      "slug": "web-106-faith-baptist-ladies-afternoon-tea",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-106-faith-baptist-ladies-afternoon-tea/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-107",
+      "slug": "web-107-faith-baptist-easter-morning-reflection",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-107-faith-baptist-easter-morning-reflection/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-108",
+      "slug": "web-108-faith-baptist-aged-care-carols",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-108-faith-baptist-aged-care-carols/",
+      "mapPoints": 1
+    },
+    {
+      "id": "WEB-109",
+      "slug": "web-109-spring-jubilee",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-109-spring-jubilee/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-110",
+      "slug": "web-110-after-thanksgiving-jubilee",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-110-after-thanksgiving-jubilee/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-111",
+      "slug": "web-111-anniversary-jubilee",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-111-anniversary-jubilee/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-112",
+      "slug": "web-112-white-oak-annual-missions-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-112-white-oak-annual-missions-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-113",
+      "slug": "web-113-are-we-willing-conference",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-113-are-we-willing-conference/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-114",
+      "slug": "web-114-new-year-s-youth-rally",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-114-new-year-s-youth-rally/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-115",
+      "slug": "web-115-winter-teen-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-115-winter-teen-meeting/",
+      "mapPoints": 2
+    },
+    {
+      "id": "WEB-116",
+      "slug": "web-116-winter-youth-meeting",
+      "url": "https://galenspring.github.io/kingjamesbiblefellowship-gatherings-site/web-116-winter-youth-meeting/",
+      "mapPoints": 2
+    }
+  ]
+}
