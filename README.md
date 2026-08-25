@@ -3,7 +3,8 @@
 This repository contains only the generated public website for King James Bible Fellowship Gatherings.
 
 - Public site source: `docs/`
-- Catalog route: `/kingjamesbiblefellowship-gatherings-site/`
+- Public origin: `https://gatherings.kingjamesbiblefellowship.com/`
+- Catalog route: `/`
 - Generated detail routes: 109
 - Plotted gathering and host locations: 148
 
