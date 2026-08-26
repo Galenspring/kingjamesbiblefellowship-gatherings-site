@@ -15,25 +15,218 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
-  :root{color-scheme:light;--shell-green:#17382d;--shell-deep:#10342c;--shell-gold:#b99842;--shell-cream:#fffaf0;--shell-paper:#f6f2e8;--shell-ink:#112a22;--shell-muted:#647069;--shell-line:#ded3b8}
-  *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--shell-paper);color:var(--shell-ink);font-family:"Source Sans Pro",Arial,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}
-  .skip-link{position:fixed;left:16px;top:-80px;z-index:1000;padding:11px 15px;background:var(--shell-deep);color:#fff;text-decoration:none}.skip-link:focus{top:14px}
-  .site-shell-header{position:relative;z-index:50;border-bottom:1px solid #e4ddcf;background:var(--shell-cream);box-shadow:0 8px 24px rgba(17,42,34,.06)}
-  .site-shell-header__inner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:28px;width:min(1180px,calc(100% - 40px));min-height:82px;margin:auto}
-  .site-shell-brand{display:flex;align-items:center;gap:10px;min-width:205px;text-decoration:none}.site-shell-brand svg{width:42px;height:42px;flex:0 0 auto}.site-shell-brand__copy{display:grid;line-height:1.06}.site-shell-brand__copy strong{font:700 14px/1.1 "Libre Baskerville",Georgia,serif}.site-shell-brand__copy span{color:#8b681f;font-size:11px;font-weight:800;letter-spacing:.055em;text-transform:uppercase}
-  .site-shell-nav{display:flex;align-items:center;justify-content:center;gap:18px}.site-shell-nav a{padding:30px 0 27px;border-bottom:3px solid transparent;color:var(--shell-ink);font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}.site-shell-nav a:hover,.site-shell-nav a:focus-visible{border-bottom-color:var(--shell-gold)}.site-shell-nav a[aria-current="page"]{border-bottom-color:var(--shell-green);color:var(--shell-green)}
-  .site-shell-action{display:inline-flex;min-height:42px;align-items:center;justify-content:center;padding:9px 16px;border:2px solid var(--shell-gold);background:var(--shell-deep);color:var(--shell-cream);font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}.site-shell-action:hover,.site-shell-action:focus-visible{background:#19493c}
-  .site-shell-mobile{display:none}.site-shell-mobile summary{cursor:pointer;font-size:13px;font-weight:800;list-style:none}.site-shell-mobile summary::-webkit-details-marker{display:none}.site-shell-mobile[open] summary{color:var(--shell-gold)}.site-shell-mobile__panel{position:absolute;left:0;right:0;top:100%;display:grid;gap:1px;padding:12px 20px 20px;border-top:1px solid var(--shell-line);background:var(--shell-cream);box-shadow:0 16px 24px rgba(17,42,34,.12)}.site-shell-mobile__panel a{padding:10px 12px;background:#fff;color:var(--shell-ink);font-size:13px;font-weight:800;text-decoration:none}.site-shell-mobile__panel a[aria-current="page"]{border-left:4px solid var(--shell-gold);background:#f5edda}
-  .site-shell-main{min-height:60vh}.site-shell-main:focus{outline:none}
-  .site-shell-footer{background:var(--shell-deep);color:var(--shell-cream)}.site-shell-footer__inner{display:grid;grid-template-columns:1.25fr .75fr .75fr;gap:46px;width:min(1180px,calc(100% - 40px));margin:auto;padding:54px 0 42px}.site-shell-footer__brand{display:flex;align-items:center;gap:12px;margin-bottom:14px}.site-shell-footer__brand svg{width:48px;height:48px;padding:5px;background:var(--shell-cream)}.site-shell-footer__brand strong{font:700 17px/1.25 "Libre Baskerville",Georgia,serif}.site-shell-footer p{max-width:480px;color:rgba(255,250,240,.72);font-size:13px;line-height:1.6}.site-shell-footer h2{margin:0 0 13px;color:var(--shell-gold);font-size:11px;letter-spacing:.08em;text-transform:uppercase}.site-shell-footer nav{display:grid;gap:8px}.site-shell-footer nav a{width:max-content;color:rgba(255,250,240,.88);font-size:13px;text-decoration-color:rgba(185,152,66,.7);text-underline-offset:3px}.site-shell-footer__bottom{border-top:1px solid rgba(255,250,240,.18)}.site-shell-footer__bottom-inner{display:flex;justify-content:space-between;gap:18px;width:min(1180px,calc(100% - 40px));margin:auto;padding:16px 0;color:rgba(255,250,240,.62);font-size:11px}.site-shell-footer__bottom a{color:inherit}
-  @media(max-width:1080px){.site-shell-header__inner{gap:18px}.site-shell-nav{gap:12px}.site-shell-nav a{font-size:11px}.site-shell-brand{min-width:180px}.site-shell-brand__copy strong{font-size:12px}.site-shell-action{padding-inline:12px}}
-  @media(max-width:880px){.site-shell-header__inner{grid-template-columns:1fr auto auto;min-height:72px}.site-shell-nav{display:none}.site-shell-mobile{display:block}.site-shell-footer__inner{grid-template-columns:1fr 1fr}.site-shell-footer__intro{grid-column:1/-1}}
-  @media(max-width:560px){.site-shell-header__inner{width:calc(100% - 24px);gap:10px}.site-shell-brand{min-width:0}.site-shell-brand svg{width:37px;height:37px}.site-shell-brand__copy strong{font-size:11px}.site-shell-brand__copy span{font-size:9px}.site-shell-action{display:none}.site-shell-footer__inner{grid-template-columns:1fr;width:calc(100% - 30px);gap:28px;padding:42px 0 34px}.site-shell-footer__intro{grid-column:auto}.site-shell-footer__bottom-inner{display:grid;width:calc(100% - 30px)}}
+  :root {
+    color-scheme: light;
+    --kjbf-shell-green: #17382d;
+    --kjbf-shell-deep-green: #10342c;
+    --kjbf-shell-footer: #0f1714;
+    --kjbf-shell-gold: #d3b968;
+    --kjbf-shell-gold-ink: #8b681f;
+    --kjbf-shell-ivory: #fffaf0;
+    --kjbf-shell-paper: #f6f2e8;
+    --kjbf-shell-ink: #112a22;
+    --kjbf-shell-muted: #5f6d66;
+    --kjbf-shell-line: #ded3b8;
+    --kjbf-shell-mint: #6bd3a9;
+  }
+
+  * { box-sizing: border-box; }
+  html { max-width: 100%; overflow-x: clip; scroll-behavior: smooth; }
+  body { max-width: 100%; margin: 0; overflow-x: clip; color: var(--kjbf-shell-ink); background: var(--kjbf-shell-paper); font-family: "Source Sans Pro", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .skip-link { position: fixed; top: -80px; left: 16px; z-index: 11000; padding: 11px 15px; color: #fff; background: var(--kjbf-shell-deep-green); text-decoration: none; }
+  .skip-link:focus { top: 14px; }
+  .site-shell-main { min-height: 60vh; }
+  .site-shell-main:focus { outline: none; }
+
+  #kjbf-global-header,
+  #kjbf-global-footer,
+  #kjbf-global-header *,
+  #kjbf-global-footer * { box-sizing: border-box; }
+
+  #kjbf-global-header {
+    position: relative;
+    z-index: 10000;
+    width: 100%;
+    color: var(--kjbf-shell-deep-green);
+    background: var(--kjbf-shell-ivory);
+    border-bottom: 1px solid var(--kjbf-shell-line);
+    box-shadow: 0 3px 12px rgba(17, 42, 34, 0.07);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+  }
+
+  #kjbf-global-header a,
+  #kjbf-global-footer a { transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease; }
+
+  #kjbf-global-header a:focus-visible,
+  #kjbf-global-header button:focus-visible,
+  #kjbf-global-footer a:focus-visible { outline: 3px solid var(--kjbf-shell-mint); outline-offset: 3px; }
+
+  .kjbf-shell-header-inner {
+    width: min(1600px, calc(100% - 64px));
+    min-height: 98px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: minmax(250px, 290px) minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .kjbf-shell-brand { display: block; padding: 4px 0; line-height: 0; text-decoration: none; }
+  .kjbf-shell-brand img { display: block; width: 100%; height: auto; }
+
+  .kjbf-shell-nav {
+    min-width: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px 16px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .kjbf-shell-nav > a {
+    position: relative;
+    padding: 15px 0;
+    color: var(--kjbf-shell-deep-green);
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .kjbf-shell-nav > a:hover,
+  .kjbf-shell-nav > a:focus-visible,
+  .kjbf-shell-nav > a[aria-current="page"] { color: var(--kjbf-shell-gold-ink); }
+
+  .kjbf-shell-nav > a[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    left: 0;
+    height: 2px;
+    background: var(--kjbf-shell-gold);
+  }
+
+  .kjbf-shell-read-cta {
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 11px 20px;
+    color: var(--kjbf-shell-ivory);
+    background: var(--kjbf-shell-deep-green);
+    border: 2px solid var(--kjbf-shell-gold);
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .kjbf-shell-read-cta::before { content: "▤"; font-size: 18px; line-height: 1; }
+  .kjbf-shell-read-cta:hover,
+  .kjbf-shell-read-cta:focus-visible { color: var(--kjbf-shell-deep-green); background: var(--kjbf-shell-mint); border-color: var(--kjbf-shell-mint); }
+
+  .kjbf-shell-menu-button {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    min-height: 42px;
+    padding: 8px 11px;
+    color: var(--kjbf-shell-deep-green);
+    background: transparent;
+    border: 1px solid var(--kjbf-shell-gold-ink);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .kjbf-shell-menu-button::before { content: "☰"; font-size: 17px; line-height: 1; }
+
+  #kjbf-global-footer {
+    width: 100%;
+    color: var(--kjbf-shell-ivory);
+    background: var(--kjbf-shell-footer);
+    border-top: 3px solid var(--kjbf-shell-gold);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+  }
+
+  .kjbf-shell-footer-main {
+    width: min(1180px, calc(100% - 48px));
+    margin-inline: auto;
+    padding: 38px 0 32px;
+    display: grid;
+    grid-template-columns: minmax(205px, 1.35fr) repeat(3, minmax(145px, 1fr));
+    gap: 34px;
+  }
+
+  .kjbf-shell-footer-brand img { display: block; width: min(235px, 100%); height: auto; }
+  .kjbf-shell-footer-brand p { max-width: 280px; margin: 15px 0 10px; color: rgba(255, 250, 240, 0.78); line-height: 1.55; }
+  .kjbf-shell-footer-update { display: inline-block; padding-bottom: 3px; color: var(--kjbf-shell-ivory); border-bottom: 1px solid var(--kjbf-shell-gold); font-weight: 700; text-decoration: none; }
+  .kjbf-shell-footer-group { min-width: 0; }
+  .kjbf-shell-footer-group > strong { display: block; margin-bottom: 8px; color: var(--kjbf-shell-gold); font: 700 16px/1.35 "Libre Baskerville", Georgia, serif; }
+  .kjbf-shell-footer-group nav { display: grid; }
+  .kjbf-shell-footer-group a { padding: 8px 0; color: var(--kjbf-shell-ivory); border-bottom: 1px solid rgba(255, 250, 240, 0.16); line-height: 1.35; text-decoration: none; }
+  .kjbf-shell-footer-group a:hover,
+  .kjbf-shell-footer-group a:focus-visible,
+  .kjbf-shell-footer-update:hover,
+  .kjbf-shell-footer-update:focus-visible { color: var(--kjbf-shell-mint); }
+
+  .kjbf-shell-footer-bottom {
+    padding: 15px max(24px, calc((100% - 1180px) / 2));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 22px;
+    color: rgba(255, 250, 240, 0.72);
+    border-top: 1px solid rgba(255, 250, 240, 0.16);
+    font-size: 13px;
+  }
+
+  .kjbf-shell-footer-bottom nav { display: flex; flex-wrap: wrap; gap: 16px; }
+  .kjbf-shell-footer-bottom a { color: inherit; }
+
+  @media (max-width: 1500px) {
+    .kjbf-shell-header-inner { width: calc(100% - 32px); grid-template-columns: minmax(190px, 220px) minmax(0, 1fr) auto; gap: 16px; }
+    .kjbf-shell-nav { gap: 3px 10px; font-size: 15px; }
+    .kjbf-shell-read-cta { padding-inline: 15px; font-size: 15px; }
+  }
+
+  @media (max-width: 1280px) {
+    .kjbf-shell-header-inner { width: min(1120px, calc(100% - 32px)); min-height: 84px; grid-template-columns: minmax(170px, 210px) 1fr auto; gap: 12px; }
+    .kjbf-shell-menu-button { display: inline-flex; justify-self: end; }
+    .kjbf-shell-nav { display: none; }
+    #kjbf-global-header.kjbf-shell-menu-open .kjbf-shell-header-inner { grid-template-rows: auto auto; }
+    #kjbf-global-header.kjbf-shell-menu-open .kjbf-shell-nav { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-content: stretch; justify-items: stretch; gap: 0 26px; padding: 12px 0 17px; border-top: 1px solid var(--kjbf-shell-line); }
+    #kjbf-global-header.kjbf-shell-menu-open .kjbf-shell-nav > a { display: block; padding: 11px 4px; white-space: normal; border-bottom: 1px solid var(--kjbf-shell-line); }
+  }
+
+  @media (max-width: 1100px) {
+    .kjbf-shell-footer-main { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .kjbf-shell-footer-brand { grid-column: 1 / -1; }
+  }
+
+  @media (max-width: 660px) {
+    .kjbf-shell-header-inner { width: calc(100% - 24px); min-height: 76px; grid-template-columns: minmax(0, 220px) auto; gap: 10px; }
+    .kjbf-shell-read-cta { display: none; }
+    #kjbf-global-header.kjbf-shell-menu-open .kjbf-shell-nav { grid-template-columns: 1fr; gap: 0; }
+    #kjbf-global-header.kjbf-shell-menu-open .kjbf-shell-read-cta { grid-column: 1 / -1; display: inline-flex; width: 100%; margin-bottom: 14px; }
+    .kjbf-shell-footer-main { width: calc(100% - 40px); grid-template-columns: 1fr; gap: 27px; }
+    .kjbf-shell-footer-brand { grid-column: auto; }
+    .kjbf-shell-footer-bottom { display: grid; padding-inline: 20px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #kjbf-global-header a,
+    #kjbf-global-footer a { transition: none; }
+  }
 </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Bluenose Campmeeting","description":"Bluenose Campmeeting: Annual week; moves to the first full week of August beginning in 2027. See the best available time and location estimate, known editions, activities, map, and organizer route.","url":"https://gatherings.kingjamesbiblefellowship.com/web-072-bluenose-campmeeting/","isPartOf":{"@type":"CollectionPage","name":"KJV Gatherings","url":"https://gatherings.kingjamesbiblefellowship.com/"},"about":{"@type":"Thing","name":"Bluenose Campmeeting","description":"Regional churches, visiting evangelists, pastors, and campmeeting attendees in Atlantic Canada"}}</script>
 </head><body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="site-shell-header"><div class="site-shell-header__inner"><a class="site-shell-brand" href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><svg viewBox="0 0 72 72" role="img" aria-label="Crowned open Bible"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 18 28 11l8 7 8-7 5 7-2 6H25z" stroke="#b99842" stroke-width="2"/><path d="M36 33v26" stroke="#b99842" stroke-width="1.8"/><path d="M9 31c10-3 19-.9 27 6.4V60c-8-7.3-17-9.4-27-6.4z" stroke="#17382d" stroke-width="2.2"/><path d="M63 31c-10-3-19-.9-27 6.4V60c8-7.3 17-9.4 27-6.4z" stroke="#17382d" stroke-width="2.2"/><path d="M14 36c7-1.5 13.4.3 19 4.8M58 36c-7-1.5-13.4.3-19 4.8" stroke="#b99842" stroke-width="1.2"/></g></svg><span class="site-shell-brand__copy"><strong>King James Bible</strong><span>Fellowship</span></span></a><nav class="site-shell-nav" aria-label="Main navigation"><a href="https://www.kingjamesbiblefellowship.com/">Home</a><a href="https://www.kingjamesbiblefellowship.com/bible-tools">Bible Tools</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="/" aria-current="page">Gatherings</a><a href="https://www.kingjamesbiblefellowship.com/bible-answers">Bible Answers</a><a href="https://www.kingjamesbiblefellowship.com/ministry-training">Ministry Training</a><a href="https://www.kingjamesbiblefellowship.com/guides---resources">Guides &amp; Resources</a></nav><a class="site-shell-action" href="https://study.kingjamesbiblefellowship.com/">▤&nbsp; Read the Bible</a><details class="site-shell-mobile"><summary>Menu</summary><nav class="site-shell-mobile__panel" aria-label="Mobile navigation"><a href="https://www.kingjamesbiblefellowship.com/">Home</a><a href="https://www.kingjamesbiblefellowship.com/bible-tools">Bible Tools</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="/" aria-current="page">Gatherings</a><a href="https://www.kingjamesbiblefellowship.com/bible-answers">Bible Answers</a><a href="https://www.kingjamesbiblefellowship.com/ministry-training">Ministry Training</a><a href="https://www.kingjamesbiblefellowship.com/guides---resources">Guides &amp; Resources</a><a href="https://study.kingjamesbiblefellowship.com/">Read the Bible</a></nav></details></div></header>
+  <header id="kjbf-global-header" data-kjbf-global-nav><div class="kjbf-shell-header-inner"><a class="kjbf-shell-brand" href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-light-lockup-1600x440.png" alt="King James Bible Fellowship" width="290" height="80"></a><button class="kjbf-shell-menu-button" type="button" aria-expanded="false" aria-controls="kjbf-shell-primary-nav">Menu</button><nav class="kjbf-shell-nav" id="kjbf-shell-primary-nav" aria-label="Primary navigation"><a href="https://www.kingjamesbiblefellowship.com/">Home</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a><a href="/" aria-current="page">Gatherings</a></nav><a class="kjbf-shell-read-cta" href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a></div></header>
   <main class="site-shell-main" id="main-content" tabindex="-1"><div class="kjbf-series-page" data-kjbf-series-page>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;800&display=swap");
@@ -52,5 +245,6 @@
 <script>(function(){var root=document.currentScript.closest('[data-kjbf-series-page]');if(!root)return;var local=location.protocol==='file:'||location.hostname==='127.0.0.1'||location.hostname==='localhost';if(local){var back=root.querySelector('[data-preview-back]');if(back)back.href=back.getAttribute('data-preview-back')}var mapNode=root.querySelector('[data-series-detail-map]');if(!mapNode||!window.L)return;var points=JSON.parse(root.querySelector('[data-series-detail-points]').textContent);var map=L.map(mapNode,{scrollWheelZoom:false});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);function category(point){if(point.kind.indexOf('upcoming')>=0)return'upcoming';if(point.kind.indexOf('last-known')>=0)return'history';return'estimate'}function icon(point){var type=category(point);return L.divIcon({className:'',html:'<span class="kp-marker kp-marker-'+type+'">'+(type==='upcoming'?'U':type==='history'?'H':'E')+'</span>',iconSize:[28,28],iconAnchor:[14,14],popupAnchor:[0,-14]})}var markers=points.map(function(point){var marker=L.marker([point.latitude,point.longitude],{icon:icon(point)}).addTo(map);marker.bindPopup('<strong>'+String(point.dateLabel||'')+'</strong><br>'+String(point.label||'')+'<br><small>'+(point.verifyRequired?'Unconfirmed — verify with organizer':'Organizer-confirmed')+'</small>');return marker});var bounds=L.latLngBounds(points.map(function(point){return[point.latitude,point.longitude]}));map.fitBounds(bounds,{padding:[28,28],maxZoom:10});setTimeout(function(){map.invalidateSize()},250)})();</script>
 </div>
 </main>
-  <footer class="site-shell-footer"><div class="site-shell-footer__inner"><section class="site-shell-footer__intro"><div class="site-shell-footer__brand"><svg viewBox="0 0 72 72" role="img" aria-label="Crowned open Bible"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M23 18 28 11l8 7 8-7 5 7-2 6H25z" stroke="#b99842" stroke-width="2"/><path d="M36 33v26" stroke="#b99842" stroke-width="1.8"/><path d="M9 31c10-3 19-.9 27 6.4V60c-8-7.3-17-9.4-27-6.4z" stroke="#17382d" stroke-width="2.2"/><path d="M63 31c-10-3-19-.9-27 6.4V60c8-7.3 17-9.4 27-6.4z" stroke="#17382d" stroke-width="2.2"/><path d="M14 36c7-1.5 13.4.3 19 4.8M58 36c-7-1.5-13.4.3-19 4.8" stroke="#b99842" stroke-width="1.2"/></g></svg><strong>King James Bible<br>Fellowship</strong></div><p>Read and study the King James Bible, find KJV-only churches, and discover gatherings for preaching, fellowship, outreach, and ministry.</p></section><section><h2>Start here</h2><nav aria-label="Start here"><a href="https://study.kingjamesbiblefellowship.com/">Read the Bible</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="/">Explore Gatherings</a></nav></section><section><h2>Fellowship</h2><nav aria-label="Fellowship links"><a href="https://www.kingjamesbiblefellowship.com/bible-answers">Bible Answers</a><a href="https://www.kingjamesbiblefellowship.com/ministry-training">Ministry Training</a><a href="https://www.kingjamesbiblefellowship.com/guides---resources">Guides &amp; Resources</a><a href="https://www.kingjamesbiblefellowship.com/contact">Contact</a></nav></section></div><div class="site-shell-footer__bottom"><div class="site-shell-footer__bottom-inner"><span>&copy; 2026 King James Bible Fellowship</span><span><a href="https://www.kingjamesbiblefellowship.com/privacy">Privacy</a> &nbsp;&middot;&nbsp; <a href="https://www.kingjamesbiblefellowship.com/terms">Terms</a></span></div></div></footer>
+  <footer id="kjbf-global-footer"><div class="kjbf-shell-footer-main"><div class="kjbf-shell-footer-brand"><a href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-dark-lockup-1600x440.png" alt="King James Bible Fellowship" width="235" height="65"></a><p>Read the Authorized King James Bible. Find a faithful church.</p><a class="kjbf-shell-footer-update" href="https://www.kingjamesbiblefellowship.com/contact">Update a church listing &rarr;</a></div><div class="kjbf-shell-footer-group"><strong>Bible &amp; Study</strong><nav aria-label="Bible and study links"><a href="https://www.kingjamesbiblefellowship.com/bible-tools">All Bible Tools</a><a href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search &amp; Study</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary &amp; Concordance</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a></nav></div><div class="kjbf-shell-footer-group"><strong>Church &amp; Fellowship</strong><nav aria-label="Church and fellowship links"><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="/">Gatherings</a></nav></div><div class="kjbf-shell-footer-group"><strong>About &amp; Standards</strong><nav aria-label="About and standards links"><a href="https://www.kingjamesbiblefellowship.com/about">About</a><a href="https://www.kingjamesbiblefellowship.com/editorial-policy">Editorial Policy</a><a href="https://www.kingjamesbiblefellowship.com/research-sources">Research Sources</a><a href="https://www.kingjamesbiblefellowship.com/corrections">Corrections</a><a href="https://www.kingjamesbiblefellowship.com/contact">Contact</a></nav></div></div><div class="kjbf-shell-footer-bottom"><span>&copy; 2026 King James Bible Fellowship</span><nav aria-label="Legal links"><a href="https://www.kingjamesbiblefellowship.com/privacy">Privacy Policy</a><a href="https://www.kingjamesbiblefellowship.com/terms">Terms of Use</a></nav></div></footer>
+  <script>(function(){var header=document.getElementById("kjbf-global-header");var button=header&&header.querySelector(".kjbf-shell-menu-button");if(!header||!button)return;button.addEventListener("click",function(){var open=header.classList.toggle("kjbf-shell-menu-open");button.setAttribute("aria-expanded",String(open));});header.addEventListener("keydown",function(event){if(event.key==="Escape"){header.classList.remove("kjbf-shell-menu-open");button.setAttribute("aria-expanded","false");button.focus();}});})();</script>
 </body></html>
