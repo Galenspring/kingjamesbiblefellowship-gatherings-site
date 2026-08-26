@@ -62,6 +62,51 @@
   #kjbf-global-header button:focus-visible,
   #kjbf-global-footer a:focus-visible { outline: 3px solid var(--kjbf-shell-mint); outline-offset: 3px; }
 
+  #kjbf-global-scripture-ribbon {
+    width: 100%;
+    margin: 0;
+    padding: 12px 24px;
+    color: #fffaf0;
+    background: #17382d;
+    border-top: 2px solid #d3b968;
+    border-bottom: 2px solid #d3b968;
+    text-align: center;
+  }
+
+  #kjbf-global-scripture-ribbon blockquote {
+    max-width: 1180px;
+    min-height: 1.55em;
+    margin: 0 auto;
+    color: inherit;
+    font: normal 16px/1.55 Georgia, "Times New Roman", serif;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: opacity 500ms ease, transform 500ms ease;
+  }
+
+  #kjbf-global-scripture-ribbon blockquote.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #kjbf-global-scripture-ribbon blockquote em { font-style: italic; }
+  #kjbf-global-scripture-ribbon cite {
+    margin-left: 7px;
+    color: #ead79a;
+    font: 700 13px/1.4 Arial, sans-serif;
+    font-style: normal;
+    white-space: nowrap;
+  }
+
+  #kjbf-global-scripture-ribbon .kjbf-scripture-link { color: inherit; text-decoration: none; }
+  #kjbf-global-scripture-ribbon .kjbf-scripture-link:hover { color: #fffaf0; text-decoration: none; }
+  #kjbf-global-scripture-ribbon .kjbf-scripture-link:focus-visible {
+    border-radius: 2px;
+    color: #fffaf0;
+    outline: 2px solid #ead79a;
+    outline-offset: 3px;
+  }
+
   .kjbf-shell-header-inner {
     width: min(1600px, calc(100% - 64px));
     min-height: 98px;
@@ -162,7 +207,7 @@
     gap: 34px;
   }
 
-  .kjbf-shell-footer-brand img { display: block; width: min(235px, 100%); height: auto; }
+  .kjbf-shell-footer-brand img { display: block; width: min(300px, 100%); height: auto; }
   .kjbf-shell-footer-brand p { max-width: 280px; margin: 15px 0 10px; color: rgba(255, 250, 240, 0.78); line-height: 1.55; }
   .kjbf-shell-footer-update { display: inline-block; padding-bottom: 3px; color: var(--kjbf-shell-ivory); border-bottom: 1px solid var(--kjbf-shell-gold); font-weight: 700; text-decoration: none; }
   .kjbf-shell-footer-group { min-width: 0; }
@@ -218,15 +263,23 @@
     .kjbf-shell-footer-bottom { display: grid; padding-inline: 20px; }
   }
 
+  @media (max-width: 640px) {
+    #kjbf-global-scripture-ribbon { padding: 10px 15px; }
+    #kjbf-global-scripture-ribbon blockquote { min-height: 2.9em; font-size: 14px; line-height: 1.45; }
+    #kjbf-global-scripture-ribbon cite { display: block; margin: 3px 0 0; }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     #kjbf-global-header a,
     #kjbf-global-footer a { transition: none; }
+    #kjbf-global-scripture-ribbon blockquote { transition: none; transform: none; }
   }
 </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Anniversary Jubilee","description":"Anniversary Jubilee: Annual anniversary week. See the best available time and location estimate, known editions, activities, map, and organizer route.","url":"https://gatherings.kingjamesbiblefellowship.com/web-111-anniversary-jubilee/","isPartOf":{"@type":"CollectionPage","name":"KJV Gatherings","url":"https://gatherings.kingjamesbiblefellowship.com/"},"about":{"@type":"Thing","name":"Anniversary Jubilee","description":"Public revival listing; participating churches are not enumerated"}}</script>
 </head><body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <header id="kjbf-global-header" data-kjbf-global-nav><div class="kjbf-shell-header-inner"><a class="kjbf-shell-brand" href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-light-lockup-1600x440.png" alt="King James Bible Fellowship" width="290" height="80"></a><button class="kjbf-shell-menu-button" type="button" aria-expanded="false" aria-controls="kjbf-shell-primary-nav">Menu</button><nav class="kjbf-shell-nav" id="kjbf-shell-primary-nav" aria-label="Primary navigation"><a href="https://www.kingjamesbiblefellowship.com/">Home</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a><a href="/" aria-current="page">Gatherings</a></nav><a class="kjbf-shell-read-cta" href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a></div></header>
+  <aside id="kjbf-global-scripture-ribbon" aria-label="Rotating Scripture" aria-live="polite" aria-atomic="true"><blockquote class="is-visible" data-kjbf-rotating-verse="true"><a class="kjbf-scripture-link" href="https://study.kingjamesbiblefellowship.com/bible/john/17/17/" aria-label="Open John 17:17 in the Bible Reader">“Sanctify them through thy truth: thy word is truth.” <cite>(John 17:17)</cite></a></blockquote></aside>
   <main class="site-shell-main" id="main-content" tabindex="-1"><div class="kjbf-series-page" data-kjbf-series-page>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;800&display=swap");
@@ -245,6 +298,58 @@
 <script>(function(){var root=document.currentScript.closest('[data-kjbf-series-page]');if(!root)return;var local=location.protocol==='file:'||location.hostname==='127.0.0.1'||location.hostname==='localhost';if(local){var back=root.querySelector('[data-preview-back]');if(back)back.href=back.getAttribute('data-preview-back')}var mapNode=root.querySelector('[data-series-detail-map]');if(!mapNode||!window.L)return;var points=JSON.parse(root.querySelector('[data-series-detail-points]').textContent);var map=L.map(mapNode,{scrollWheelZoom:false});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);function category(point){if(point.kind.indexOf('upcoming')>=0)return'upcoming';if(point.kind.indexOf('last-known')>=0)return'history';return'estimate'}function icon(point){var type=category(point);return L.divIcon({className:'',html:'<span class="kp-marker kp-marker-'+type+'">'+(type==='upcoming'?'U':type==='history'?'H':'E')+'</span>',iconSize:[28,28],iconAnchor:[14,14],popupAnchor:[0,-14]})}var markers=points.map(function(point){var marker=L.marker([point.latitude,point.longitude],{icon:icon(point)}).addTo(map);marker.bindPopup('<strong>'+String(point.dateLabel||'')+'</strong><br>'+String(point.label||'')+'<br><small>'+(point.verifyRequired?'Unconfirmed — verify with organizer':'Organizer-confirmed')+'</small>');return marker});var bounds=L.latLngBounds(points.map(function(point){return[point.latitude,point.longitude]}));map.fitBounds(bounds,{padding:[28,28],maxZoom:10});setTimeout(function(){map.invalidateSize()},250)})();</script>
 </div>
 </main>
-  <footer id="kjbf-global-footer"><div class="kjbf-shell-footer-main"><div class="kjbf-shell-footer-brand"><a href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-dark-lockup-1600x440.png" alt="King James Bible Fellowship" width="235" height="65"></a><p>Read the Authorized King James Bible. Find a faithful church.</p><a class="kjbf-shell-footer-update" href="https://www.kingjamesbiblefellowship.com/contact">Update a church listing &rarr;</a></div><div class="kjbf-shell-footer-group"><strong>Bible &amp; Study</strong><nav aria-label="Bible and study links"><a href="https://www.kingjamesbiblefellowship.com/bible-tools">All Bible Tools</a><a href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search &amp; Study</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary &amp; Concordance</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a></nav></div><div class="kjbf-shell-footer-group"><strong>Church &amp; Fellowship</strong><nav aria-label="Church and fellowship links"><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="/">Gatherings</a></nav></div><div class="kjbf-shell-footer-group"><strong>About &amp; Standards</strong><nav aria-label="About and standards links"><a href="https://www.kingjamesbiblefellowship.com/about">About</a><a href="https://www.kingjamesbiblefellowship.com/editorial-policy">Editorial Policy</a><a href="https://www.kingjamesbiblefellowship.com/research-sources">Research Sources</a><a href="https://www.kingjamesbiblefellowship.com/corrections">Corrections</a><a href="https://www.kingjamesbiblefellowship.com/contact">Contact</a></nav></div></div><div class="kjbf-shell-footer-bottom"><span>&copy; 2026 King James Bible Fellowship</span><nav aria-label="Legal links"><a href="https://www.kingjamesbiblefellowship.com/privacy">Privacy Policy</a><a href="https://www.kingjamesbiblefellowship.com/terms">Terms of Use</a></nav></div></footer>
-  <script>(function(){var header=document.getElementById("kjbf-global-header");var button=header&&header.querySelector(".kjbf-shell-menu-button");if(!header||!button)return;button.addEventListener("click",function(){var open=header.classList.toggle("kjbf-shell-menu-open");button.setAttribute("aria-expanded",String(open));});header.addEventListener("keydown",function(event){if(event.key==="Escape"){header.classList.remove("kjbf-shell-menu-open");button.setAttribute("aria-expanded","false");button.focus();}});})();</script>
+  <footer id="kjbf-global-footer"><div class="kjbf-shell-footer-main"><div class="kjbf-shell-footer-brand"><a href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-dark-lockup-1600x440.png" alt="King James Bible Fellowship" width="300" height="83"></a><p>Read the Authorized King James Bible. Find a faithful church.</p><a class="kjbf-shell-footer-update" href="https://www.kingjamesbiblefellowship.com/contact">Update a church listing &rarr;</a></div><div class="kjbf-shell-footer-group"><strong>Bible &amp; Study</strong><nav aria-label="Bible and study links"><a href="https://www.kingjamesbiblefellowship.com/bible-tools">All Bible Tools</a><a href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search &amp; Study</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary &amp; Concordance</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a></nav></div><div class="kjbf-shell-footer-group"><strong>Church &amp; Fellowship</strong><nav aria-label="Church and fellowship links"><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="/">Gatherings</a></nav></div><div class="kjbf-shell-footer-group"><strong>About &amp; Standards</strong><nav aria-label="About and standards links"><a href="https://www.kingjamesbiblefellowship.com/about">About</a><a href="https://www.kingjamesbiblefellowship.com/editorial-policy">Editorial Policy</a><a href="https://www.kingjamesbiblefellowship.com/research-sources">Research Sources</a><a href="https://www.kingjamesbiblefellowship.com/corrections">Corrections</a><a href="https://www.kingjamesbiblefellowship.com/contact">Contact</a></nav></div></div><div class="kjbf-shell-footer-bottom"><span>&copy; 2026 King James Bible Fellowship</span><nav aria-label="Legal links"><a href="https://www.kingjamesbiblefellowship.com/privacy">Privacy Policy</a><a href="https://www.kingjamesbiblefellowship.com/terms">Terms of Use</a></nav></div></footer>
+  <script id="kjbf-global-shell-script">(function(){
+var header=document.getElementById("kjbf-global-header");
+var button=header&&header.querySelector(".kjbf-shell-menu-button");
+if(header&&button){
+  button.addEventListener("click",function(){var open=header.classList.toggle("kjbf-shell-menu-open");button.setAttribute("aria-expanded",String(open));});
+  header.addEventListener("keydown",function(event){if(event.key==="Escape"){header.classList.remove("kjbf-shell-menu-open");button.setAttribute("aria-expanded","false");button.focus();}});
+}
+
+var ribbon=document.getElementById("kjbf-global-scripture-ribbon");
+var quotation=ribbon&&ribbon.querySelector("blockquote");
+var verses=[{"html":"Sanctify them through thy truth: thy word is truth.","ref":"John 17:17"},{"html":"Thy testimonies also <em>are</em> my delight <em>and</em> my counsellors.","ref":"Psalms 119:24"},{"html":"For ever, O LORD, thy word is settled in heaven.","ref":"Psalms 119:89"},{"html":"O earth, earth, earth, hear the word of the LORD.","ref":"Jeremiah 22:29"},{"html":"Thy word <em>is</em> very pure: therefore thy servant loveth it.","ref":"Psalms 119:140"},{"html":"I rejoice at thy word, as one that findeth great spoil.","ref":"Psalms 119:162"},{"html":"Till I come, give attendance to reading, to exhortation, to doctrine.","ref":"1 Timothy 4:13"},{"html":"O how love I thy law! it <em>is</em> my meditation all the day.","ref":"Psalms 119:97"},{"html":"Now ye are clean through the word which I have spoken unto you.","ref":"John 15:3"},{"html":"So then faith <em>cometh</em> by hearing, and hearing by the word of God.","ref":"Romans 10:17"},{"html":"Heaven and earth shall pass away, but my words shall not pass away.","ref":"Matthew 24:35"},{"html":"Mine eyes prevent the <em>night</em> watches, that I might meditate in thy word.","ref":"Psalms 119:148"},{"html":"He sent his word, and healed them, and delivered <em>them</em> from their destructions.","ref":"Psalms 107:20"},{"html":"The entrance of thy words giveth light; it giveth understanding unto the simple.","ref":"Psalms 119:130"},{"html":"Thy word <em>is</em> a lamp unto my feet, and a light unto my path.","ref":"Psalms 119:105"},{"html":"Open thou mine eyes, that I may behold wondrous things out of thy law.","ref":"Psalms 119:18"},{"html":"Whereby, when ye read, ye may understand my knowledge in the mystery of Christ)","ref":"Ephesians 3:4"},{"html":"I have more understanding than all my teachers: for thy testimonies <em>are</em> my meditation.","ref":"Psalms 119:99"},{"html":"In God will I praise <em>his</em> word: in the LORD will I praise <em>his</em> word.","ref":"Psalms 56:10"},{"html":"How sweet are thy words unto my taste! <em>yea, sweeter</em> than honey to my mouth!","ref":"Psalms 119:103"},{"html":"For the word of the LORD <em>is</em> right; and all his works <em>are done</em> in truth.","ref":"Psalms 33:4"},{"html":"The grass withereth, the flower fadeth: but the word of our God shall stand for ever.","ref":"Isaiah 40:8"},{"html":"But he said, Yea rather, blessed <em>are</em> they that hear the word of God, and keep it.","ref":"Luke 11:28"},{"html":"Thy word <em>is true from</em> the beginning: and every one of thy righteous judgments endureth for ever.","ref":"Psalms 119:160"},{"html":"Every word of God <em>is</em> pure: he <em>is</em> a shield unto them that put their trust in him.","ref":"Proverbs 30:5"},{"html":"The words of the LORD <em>are</em> pure words: <em>as</em> silver tried in a furnace of earth, purified seven times.","ref":"Psalms 12:6"},{"html":"But his delight <em>is</em> in the law of the LORD; and in his law doth he meditate day and night.","ref":"Psalms 1:2"},{"html":"Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me.","ref":"John 5:39"},{"html":"<em>Is</em> not my word like as a fire? saith the LORD; and like a hammer <em>that</em> breaketh the rock in pieces?","ref":"Jeremiah 23:29"},{"html":"Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.","ref":"2 Timothy 2:15"},{"html":"Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever.","ref":"1 Peter 1:23"},{"html":"But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you.","ref":"1 Peter 1:25"},{"html":"It is the spirit that quickeneth; the flesh profiteth nothing: the words that I speak unto you, <em>they</em> are spirit, and <em>they</em> are life.","ref":"John 6:63"},{"html":"But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.","ref":"Matthew 4:4"}];
+var rotationDelay = 12000;
+if(!ribbon||!quotation||!verses.length)return;
+
+function canonicalReaderUrl(ref){
+  var match=String(ref).match(/^(.+)\s+(\d+):(\d+)$/);
+  if(!match)return "https://study.kingjamesbiblefellowship.com/bible/";
+  var book=match[1].toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+  return "https://study.kingjamesbiblefellowship.com/bible/"+book+"/"+match[2]+"/"+match[3]+"/";
+}
+function shuffle(values){
+  for(var i=values.length-1;i>0;i-=1){var j=Math.floor(Math.random()*(i+1));var temporary=values[i];values[i]=values[j];values[j]=temporary;}
+  return values;
+}
+
+ribbon.setAttribute("data-kjbf-rotation-ready","true");
+var order=shuffle(verses.map(function(_,index){return index;}));
+var position=-1;
+var timer=null;
+var paused=false;
+var hovering=false;
+var reducedMotion=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function render(entry,immediate){
+  quotation.classList.remove("is-visible");
+  window.setTimeout(function(){
+    quotation.innerHTML='<a class="kjbf-scripture-link" href="'+canonicalReaderUrl(entry.ref)+'" aria-label="Open '+entry.ref+' in the Bible Reader">“'+entry.html+'” <cite>('+entry.ref+')</cite></a>';
+    if(immediate||reducedMotion){quotation.classList.add("is-visible");}
+    else{window.requestAnimationFrame(function(){quotation.classList.add("is-visible");});}
+  },immediate||reducedMotion?0:260);
+}
+function showNext(immediate){position=(position+1)%order.length;render(verses[order[position]],immediate);}
+function schedule(){window.clearTimeout(timer);if(!paused){timer=window.setTimeout(function(){showNext(false);schedule();},rotationDelay);}}
+function pause(){paused=true;window.clearTimeout(timer);}
+function resume(){paused=false;schedule();}
+
+ribbon.addEventListener("mouseenter",function(){hovering=true;pause();});
+ribbon.addEventListener("mouseleave",function(){hovering=false;if(!ribbon.contains(document.activeElement))resume();});
+ribbon.addEventListener("focusin",pause);
+ribbon.addEventListener("focusout",function(){if(!hovering)resume();});
+showNext(true);
+schedule();
+})();</script>
 </body></html>
