@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "origin": "https://gatherings.kingjamesbiblefellowship.com",
+  "gatheringsFinderUrl": "https://www.kingjamesbiblefellowship.com/gatherings",
   "lastSourceVerification": "2026-08-23",
   "counts": {
-    "catalogPages": 1,
+    "redirectPages": 1,
+    "catalogPages": 0,
     "detailPages": 109,
     "mapMarkers": 148,
     "totalHtmlRoutes": 110
