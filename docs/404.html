@@ -163,18 +163,21 @@
     justify-content: center;
     gap: 8px;
     padding: 11px 20px;
-    color: var(--kjbf-shell-ivory);
-    background: var(--kjbf-shell-deep-green);
-    border: 2px solid var(--kjbf-shell-gold);
+    color: #1f190c;
+    background: linear-gradient(180deg, #f4dc83 0%, #e7c760 48%, #d5b25a 100%);
+    border: 1px solid #937124;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .62), 0 2px 3px rgba(55, 42, 14, .14);
     font-size: 16px;
     font-weight: 800;
     text-decoration: none;
     white-space: nowrap;
   }
 
-  .kjbf-shell-read-cta::before { content: "▤"; font-size: 18px; line-height: 1; }
+  .kjbf-shell-read-cta svg { width: 20px; height: 20px; flex: 0 0 20px; fill: none; stroke: #1f190c; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .kjbf-shell-read-cta svg path { stroke: #1f190c; }
   .kjbf-shell-read-cta:hover,
-  .kjbf-shell-read-cta:focus-visible { color: var(--kjbf-shell-deep-green); background: var(--kjbf-shell-mint); border-color: var(--kjbf-shell-mint); }
+  .kjbf-shell-read-cta:focus-visible { color: #1f190c; background: linear-gradient(180deg, #f4dc83 0%, #e7c760 48%, #d5b25a 100%); border-color: #937124; filter: brightness(1.06); }
 
   .kjbf-shell-menu-button {
     display: none;
@@ -182,13 +185,19 @@
     gap: 8px;
     min-height: 42px;
     padding: 8px 11px;
-    color: var(--kjbf-shell-deep-green);
-    background: transparent;
-    border: 1px solid var(--kjbf-shell-gold-ink);
+    color: #202326;
+    background: linear-gradient(180deg, #f7f9f9 0%, #e2e6e8 52%, #ccd2d5 100%);
+    border: 1px solid #949c9f;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 #fff, 0 1px 2px rgba(38, 41, 42, .08);
     font: inherit;
     font-weight: 700;
     cursor: pointer;
   }
+
+  .kjbf-shell-menu-button:hover { filter: brightness(1.06); }
+  .kjbf-shell-read-cta:focus-visible,
+  .kjbf-shell-menu-button:focus-visible { outline: 3px solid #467f74; outline-offset: 3px; }
 
   .kjbf-shell-menu-button::before { content: "☰"; font-size: 17px; line-height: 1; }
 
@@ -280,7 +289,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gathering page not found","url":"https://gatherings.kingjamesbiblefellowship.com/404.html"}</script>
 </head><body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header id="kjbf-global-header" data-kjbf-global-nav><div class="kjbf-shell-header-inner"><a class="kjbf-shell-brand" href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-light-lockup-1600x440.png" alt="King James Bible Fellowship" width="290" height="80"></a><button class="kjbf-shell-menu-button" type="button" aria-expanded="false" aria-controls="kjbf-shell-primary-nav">Menu</button><nav class="kjbf-shell-nav" id="kjbf-shell-primary-nav" aria-label="Primary navigation"><a href="https://www.kingjamesbiblefellowship.com/">Home</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a><a href="https://www.kingjamesbiblefellowship.com/gatherings" aria-current="page">Gatherings</a></nav><a class="kjbf-shell-read-cta" href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a></div></header>
+  <header id="kjbf-global-header" data-kjbf-global-nav><div class="kjbf-shell-header-inner"><a class="kjbf-shell-brand" href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-light-lockup-1600x440.png" alt="King James Bible Fellowship" width="290" height="80"></a><button class="kjbf-shell-menu-button" type="button" aria-expanded="false" aria-controls="kjbf-shell-primary-nav">Menu</button><nav class="kjbf-shell-nav" id="kjbf-shell-primary-nav" aria-label="Primary navigation"><a href="https://www.kingjamesbiblefellowship.com/">Home</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary</a><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a><a href="https://www.kingjamesbiblefellowship.com/gatherings" aria-current="page">Gatherings</a></nav><a class="kjbf-shell-read-cta" href="https://study.kingjamesbiblefellowship.com/bible/"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 5.5c3.4-.7 6.4.1 9 2.4v11c-2.6-2.3-5.6-3.1-9-2.4z"></path><path d="M21 5.5c-3.4-.7-6.4.1-9 2.4v11c2.6-2.3 5.6-3.1 9-2.4z"></path></svg>Read the Bible</a></div></header>
   <aside id="kjbf-global-scripture-ribbon" aria-label="Rotating Scripture" aria-live="polite" aria-atomic="true"><blockquote class="is-visible" data-kjbf-rotating-verse="true"><a class="kjbf-scripture-link" href="https://study.kingjamesbiblefellowship.com/bible/john/17/17/" aria-label="Open John 17:17 in the Bible Reader">“Sanctify them through thy truth: thy word is truth.” <cite>(John 17:17)</cite></a></blockquote></aside>
   <main class="site-shell-main" id="main-content" tabindex="-1"><section style="padding:96px 24px;background:#f6f2e8;text-align:center"><p style="margin:0 0 10px;color:#8b681f;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase">KJV Gatherings</p><h1 style="max-width:780px;margin:0 auto 18px;font:700 clamp(38px,6vw,64px)/1.12 'Libre Baskerville',Georgia,serif;color:#112a22">That gathering page was not found.</h1><p style="max-width:600px;margin:0 auto 28px;color:#647069;font-size:18px">Use the Fellowship finder to locate a current gathering profile and organizer route.</p><a href="https://www.kingjamesbiblefellowship.com/gatherings" style="display:inline-flex;padding:12px 18px;background:#17382d;color:#fffaf0;font-weight:800;text-decoration:none">Explore all gatherings</a></section></main>
   <footer id="kjbf-global-footer"><div class="kjbf-shell-footer-main"><div class="kjbf-shell-footer-brand"><a href="https://www.kingjamesbiblefellowship.com/" aria-label="King James Bible Fellowship home"><img src="https://irp.cdn-website.com/dca845f5/dms3rep/multi/kjbf-v45-approved-shield-dark-lockup-1600x440.png" alt="King James Bible Fellowship" width="300" height="83"></a><p>Read the Authorized King James Bible. Find a faithful church.</p><a class="kjbf-shell-footer-update" href="https://www.kingjamesbiblefellowship.com/contact">Update a church listing &rarr;</a></div><div class="kjbf-shell-footer-group"><strong>Bible &amp; Study</strong><nav aria-label="Bible and study links"><a href="https://www.kingjamesbiblefellowship.com/bible-tools">All Bible Tools</a><a href="https://study.kingjamesbiblefellowship.com/bible/">Read the Bible</a><a href="https://study.kingjamesbiblefellowship.com/verses/">Verse Search &amp; Study</a><a href="https://study.kingjamesbiblefellowship.com/dictionary/">Dictionary &amp; Concordance</a><a href="https://study.kingjamesbiblefellowship.com/ask-a-pastor/">Ask a Pastor</a></nav></div><div class="kjbf-shell-footer-group"><strong>Church &amp; Fellowship</strong><nav aria-label="Church and fellowship links"><a href="https://www.kingjamesbiblefellowship.com/find-a-church">Find a Church</a><a href="https://www.kingjamesbiblefellowship.com/gatherings">Gatherings</a></nav></div><div class="kjbf-shell-footer-group"><strong>About &amp; Standards</strong><nav aria-label="About and standards links"><a href="https://www.kingjamesbiblefellowship.com/about">About</a><a href="https://www.kingjamesbiblefellowship.com/editorial-policy">Editorial Policy</a><a href="https://www.kingjamesbiblefellowship.com/research-sources">Research Sources</a><a href="https://www.kingjamesbiblefellowship.com/corrections">Corrections</a><a href="https://www.kingjamesbiblefellowship.com/contact">Contact</a></nav></div></div><div class="kjbf-shell-footer-bottom"><span>&copy; 2026 King James Bible Fellowship</span><nav aria-label="Legal links"><a href="https://www.kingjamesbiblefellowship.com/privacy">Privacy Policy</a><a href="https://www.kingjamesbiblefellowship.com/terms">Terms of Use</a></nav></div></footer>
