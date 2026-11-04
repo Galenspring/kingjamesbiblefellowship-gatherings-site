@@ -550,6 +550,7 @@ html:not(.kjbf-burgundy-js) body #kjbf-global-header .kjbf-shell-nav {
   if (document.body?.hasAttribute('data-edition') || location.pathname.startsWith('/bible/')) return;
   const roots = new Set();
   const originals = new WeakMap();
+  const originalInk = new WeakMap();
   let pending = false;
   function decorate(element) {
     if (!(element instanceof HTMLElement) || !element.matches(surfaces) || element.closest(excluded)) return;
@@ -586,6 +587,44 @@ html:not(.kjbf-burgundy-js) body #kjbf-global-header .kjbf-shell-nav {
   function scan(root) {
     decorate(root);
     root.querySelectorAll?.(surfaces).forEach(decorate);
+    readableInk(root);
+    root.querySelectorAll?.('*').forEach(readableInk);
+  }
+  function luminance(rgb) {
+    return rgb.map(value => value / 255).map(value => value <= .04045 ? value / 12.92 : ((value + .055) / 1.055) ** 2.4).reduce((sum,value,index) => sum + value * [.2126,.7152,.0722][index], 0);
+  }
+  function readableInk(element) {
+    if (!(element instanceof HTMLElement) || ['SCRIPT','STYLE','TEMPLATE','NOSCRIPT'].includes(element.tagName) || !element.getClientRects().length || ![...element.childNodes].some(node => node.nodeType === 3 && node.textContent.trim())) return;
+    let paper = element;
+    if (element.closest(excluded)) paper = null;
+    while (paper) {
+      const style = getComputedStyle(paper), color = style.backgroundColor.match(/[\d.]+/g);
+      if (style.backgroundImage !== 'none' || (color && (color.length < 4 || +color[3] > 0))) break;
+      paper = paper.parentElement;
+    }
+    if (!paper?.hasAttribute('data-kjbf-ivory')) {
+      const original = originalInk.get(element);
+      if (original) {
+        if (original[0]) element.style.setProperty('color',original[0],original[1]); else element.style.removeProperty('color');
+        originalInk.delete(element); element.removeAttribute('data-kjbf-paper-ink');
+      }
+      return;
+    }
+    const style = getComputedStyle(element), color = style.color.match(/[\d.]+/g);
+    if (!color || (color.length > 3 && +color[3] !== 1)) return;
+    const base = getComputedStyle(paper).backgroundColor.match(/[\d.]+/g).slice(0,3).map(Number);
+    // Per-channel minima measured from the approved tile; conservative at every grain pixel.
+    const background = luminance(base.map((value,index) => value * .55 + [217,202,169][index] * .45));
+    const large = parseFloat(style.fontSize) >= 24 || (parseFloat(style.fontSize) >= 18.666 && +style.fontWeight >= 700);
+    const target = large ? 3.1 : 4.65;
+    const source = color.slice(0,3).map(Number);
+    const ratio = rgb => { const ink = luminance(rgb); return (Math.max(ink,background)+.05)/(Math.min(ink,background)+.05); };
+    if (ratio(source) >= target) return;
+    let factor = 1, adjusted = source;
+    do { factor -= .025; adjusted = source.map(value => Math.round(value * factor)); } while (ratio(adjusted) < target && factor > 0);
+    if (!originalInk.has(element)) originalInk.set(element,[element.style.getPropertyValue('color'),element.style.getPropertyPriority('color')]);
+    element.style.setProperty('color','rgb('+adjusted.join(',')+')','important');
+    element.setAttribute('data-kjbf-paper-ink','contrast');
   }
   function queue(root) {
     roots.add(root);
