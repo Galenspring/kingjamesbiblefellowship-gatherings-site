@@ -641,6 +641,8 @@ html:not(.kjbf-burgundy-js) body #kjbf-global-header .kjbf-shell-nav {
     new MutationObserver(records => {
       for (const record of records) {
         if (record.type === 'childList') {
+          // Children can give a previously empty light container its visible size.
+          queue(record.target);
           for (const node of record.addedNodes) if (node.nodeType === 1) queue(node);
         } else if (record.type === 'attributes') queue(record.target);
       }
